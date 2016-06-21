@@ -47,6 +47,7 @@ c. 朱茵
 * Question & Answer format:
 * Slack Integration Library
  * https://github.com/slackhq/python-slackclient
+ * https://github.com/lins05/slackbot
  * https://github.com/os/slacker
 
 ### 加入 Slack pixnethackathon2016 channel 步驟說明
