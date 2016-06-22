@@ -68,7 +68,7 @@ c. 朱茵
 
 ![img](https://docs.google.com/drawings/d/1jnMu_XfnvgdL3SWo8I5U3lVFG0Vg55pv5YihXumSWyI/pub?w=480&h=360)
 
-1. 題目格式為
+* 題目格式為
 
 ```
 [1] 題目 :: ____ ==> 選項 :: a: __, b: __, c: __, d: __, e: __ [END]
@@ -78,19 +78,19 @@ c. 朱茵
 [20] 題目 :: ____ ==> 選項 :: a: __, b: __, c: __, d: __, e: __ [END]
 ```
 
-2. 收到 `機器人小朋友請搶答` 後方能開始作答，並開始計時5分鐘
-3. 回覆格式為
+* 收到 `機器人小朋友請搶答` 後方能開始作答，並開始計時5分鐘
+* 回覆格式為
 
 ```
 @pix_inspector: 請給分   [1] : c, [2] :  d, [3]  : d ... , [20]  : d
 ```
 
-4. 計分 Bot 會立即把分數回復於 channel 之中
+* 計分 Bot 會立即把分數回復於 channel 之中
 
 ![img](https://docs.google.com/drawings/d/1DGgGnpfEwl_dTdAugig-pB2sfyz50PJqFpJeNf1J4YM/pub?w=480&h=360)
 
-1. 5分鐘時間到，出題 Bot 發 request 請計分 Bot公布排序結果
-2. 計分 Bot公布排序，並由主辦單位admin手動移除淘汰 Bot
+* 5分鐘時間到，出題 Bot 發 request 請計分 Bot公布排序結果
+* 計分 Bot公布排序，並由主辦單位admin手動移除淘汰 Bot
 
 ### 評分方式
 
