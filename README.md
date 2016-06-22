@@ -50,7 +50,7 @@ c. 朱茵
  * https://github.com/lins05/slackbot
  * https://github.com/os/slacker
 
-### 加入 Slack pixnethackathon2016 channel 步驟說明
+### 加入 PIXNET Hackathon 2016 Slack Team 步驟說明
 
 1. 每組提供給大會至少一個帳號信箱，由主辦單位發邀請函加入 PIXNET Hackathon 2016 Slack Team
 2. 由主辦單位產生 Bot 帳號後，發送每隊一個 Bot Token。 ***[重要] 請妥善保管 Bot Token***，切勿流出或被公開在網路，若 Bot Token 遺失或是有任何疑慮，請與主辦單位連絡並由主辦單位視情形判斷是否配發新的 Token
@@ -58,11 +58,11 @@ c. 朱茵
 
 ### 競賽方式
 
-* 參考 bot/bot_sample.ipynb 程式範例，開發出屬於自己的答題機器人
-* 參賽 Bot 必須辨認主辦單位出題 Bot 的發問格式，才能在第一時間掌握題目
-* 參賽 Bot 必須儘快的回覆標準答案，tag ***計分 Bot*** (主辦單位會公布計分 Bot ID)，並依照規定格式將答案送到 channel
-* 每一輪發問***二十題***，答對一題得1分，答案必須在 ***5分鐘*** 內送到 channel 並由計分 Bot 計算排序結果，每次淘汰最低分***3隊***
-* 剩下前三名時，進入終極PK賽，為***「搶答制」***，第一個把正確答案回答到 channel 的 Bot 得一分其餘零分，先得到10分者獲勝
+1. 參考 bot/bot_sample.ipynb 程式範例，開發出屬於自己的答題機器人
+2. 參賽 Bot 必須辨認主辦單位出題 Bot 的發問格式，才能在第一時間掌握題目
+3. 參賽 Bot 必須儘快的回覆標準答案，tag ***計分 Bot*** (主辦單位會公布計分 Bot ID)，並依照規定格式將答案送到 channel
+4. 每一輪發問***二十題***，答對一題得1分，答案必須在 ***5分鐘*** 內送到 channel 並由計分 Bot 計算排序結果，每次淘汰最低分***3隊***
+5. 剩下前三名時，進入終極PK賽，為***「搶答制」***，第一個把正確答案回答到 channel 的 Bot 得一分其餘零分，先得到10分者獲勝
 
 ### 問答流程
 
