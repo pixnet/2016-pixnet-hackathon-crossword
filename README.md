@@ -39,13 +39,7 @@ c. 朱茵
 ## 比賽規則
 各隊必需實作 Slack Bot 作為回答比賽題目的 AI 機器人，各隊的參賽 Bot 會被邀請至擂台頻道，擂台主出題 Bot 會提問題目，再由各隊 Bot 回答計算結果，並由大會計分 Bot 來即時統計分數，答題需兼顧正確性及回覆速度。
 
-* Hackathon Slack Team Link: 
-* Slack Integratioin Sample Code: 
-* Question & Answer format:
-* Slack Integration Library
- * https://github.com/slackhq/python-slackclient
- * https://github.com/lins05/slackbot
- * https://github.com/os/slacker
+
 
 ### 加入 Hackathon 2016 Slack Team 步驟說明
 
@@ -104,6 +98,11 @@ c. 朱茵
   得分 * 0.7 後與裁判分數加總
   ```
 * 簡報解說 30%（包含簡報內容、演算法設計、資料闡釋與分析等）
+
+## 相關 Slack Integration Library
+ * https://github.com/slackhq/python-slackclient
+ * https://github.com/lins05/slackbot
+ * https://github.com/os/slacker
 
 
 ## 推薦閱讀
