@@ -57,7 +57,7 @@ c. 朱茵
 
 1. 參考 [Bot 範例程式](./bot/bot_sample.ipynb)，開發出屬於自己的答題機器人。
   
-   ```
+   ``` python
    ## 取得 quizmaster 丟出的題目字串，解析出問題及選項
    @listen_to(unicode("題目", 'utf-8') + ' (.*)', re.DOTALL)
    def receive_question(message, question):
