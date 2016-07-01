@@ -79,7 +79,7 @@ c. 朱茵
 @pix_inspector: 請給分 1 : c, 2 : d, 3 : d ... , 20 : d
 ```
 
-* 計分 Bot 會立即把分數回復於 channel 之中
+* 計分 Bot 會立即把分數回覆於 channel 之中
 
 ![img](https://docs.google.com/drawings/d/1DGgGnpfEwl_dTdAugig-pB2sfyz50PJqFpJeNf1J4YM/pub?w=480&h=360)
 
