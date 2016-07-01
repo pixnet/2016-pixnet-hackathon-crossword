@@ -50,8 +50,8 @@ c. 朱茵
 ### 加入 Hackathon 2016 Slack Team 步驟說明
 
 1. 主辦單位發 Slack 邀請函至參賽者報名所提供的 mail，請收到後接收即加入 PIXNET Hackathon 2016 Slack Team。
-2. 由主辦單位產生 Bot 帳號後，發送每隊一個 Bot Token。 ***[重要] 請妥善保管 Bot Token***，切勿流出或有任何機會被公開在網路，若 Bot Token 遺失或是有任何疑慮，請與主辦單位連絡並由主辦單位視情形判斷是否配發新的 Token。
-3. 進入 Slack Team 後可自行加入測試 channel ***#testonetwothree*** (public)，並於賽前由主辦單位邀請加入正式競賽 channel (private)。
+2. 由主辦單位產生 Bot 帳號後，於 7/4 mail 發送每隊一個專屬 Bot Token。 ***[重要] 請妥善保管 Bot Token***，切勿流出或有任何機會被公開在網路，若 Bot Token 遺失或是有任何疑慮，請與主辦單位連絡並由主辦單位視情形判斷是否配發新的 Token。
+3. 進入 Slack Team 後 Bot 會自動被加入測試 channel ***#testonetwothree*** (public)，7/4 起主辦單位將不定期在 channel 上丟出題目供各隊測試，並在賽前將各隊 Bot 邀請加入至正式競賽 channel (private)。
 
 ### 競賽方式
 
