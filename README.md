@@ -55,7 +55,24 @@ c. 朱茵
 
 ### 競賽方式
 
-1. 參考 bot/bot_sample.ipynb 程式範例，開發出屬於自己的答題機器人。
+1. 參考 [Bot 範例程式](./bot/bot_sample.ipynb)，開發出屬於自己的答題機器人。
+  
+   ```
+   ## 取得 quizmaster 丟出的題目字串，解析出問題及選項
+   @listen_to(unicode("題目", 'utf-8') + ' (.*)', re.DOTALL)
+   def receive_question(message, question):
+      if message._client.users[message._get_user_id()][u'name'] == "quizmaster":
+        m = re.match('\[(\d+)\] (.*) \\t### (.*) \[END\]', question_string)
+        quiz_no = int(m.group(1))
+        question = m.group(2)
+        options = {}
+        for item in m.group(3).split(','):
+            index, value = item.split(':')
+            options[index] = value
+        # 可在此呼叫自定義算法，透過題目(question)、選項(options)，計算出該題答案，本範例為 random 一個答案
+        # 只要在此填入您的答案，即具備參賽 Bot 的功能
+        ANSWER_LIST.append(random.choice(options.keys()))
+   ```
 2. 參賽 Bot 必須辨認主辦單位出題 Bot 的發問格式，才能在第一時間掌握題目。
 3. 參賽 Bot 必須儘快的回覆標準答案，並 tag ***計分 Bot*** (主辦單位會公布計分 Bot ID) ，依照規定格式將答案送到 channel。
 4. 每一輪發問***二十題***，答對一題得 4 分，答案必須在 ***5分鐘*** 內送到 channel 並由計分 Bot 計算排序結果，每次淘汰最低分***3隊***。
