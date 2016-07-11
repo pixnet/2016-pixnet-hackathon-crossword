@@ -99,6 +99,9 @@ c. 朱茵
   ```
 * 簡報解說 30%（包含簡報內容、演算法設計、資料闡釋與分析等）
 
+### 說明影片
+- [影片鏈結](https://youtu.be/mQz6lIZHwkA?t=21m9s)
+
 ## 相關 Slack Integration Library
  * https://github.com/slackhq/python-slackclient
  * https://github.com/lins05/slackbot
