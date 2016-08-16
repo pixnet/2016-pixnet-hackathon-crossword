@@ -1,6 +1,16 @@
+
+
+## 資料欄位說明
+
+[ question_id question  answer_id	option_a  option_b  option_c  option_d  option_e	standard_article_answer url difficulty ]
+
+- standard_article_answer 為內文原本被挖空之關鍵字內容
+- difficulty 包含 easy, medium, hard
+
+## 資料使用授權說明
+
 [A.I. Cloze 題庫答案](./hackathon_1000.tsv) 是 2016 PIXNET Hackathon 活動中開放的資料集。詳細的資料說明與授權如下。
 
-資料使用授權
 
 若您下載 A.I. Cloze 題庫答案 連結所提供的資料集 (Dataset)，表示您同意以下的資料使用授權：
 
